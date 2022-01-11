@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		1003EBF7278D7C0500172C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1003EBF6278D7C0500172C84 /* AppDelegate.swift */; };
 		1003EBF9278D7C0500172C84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1003EBF8278D7C0500172C84 /* SceneDelegate.swift */; };
-		1003EBFB278D7C0500172C84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1003EBFA278D7C0500172C84 /* ViewController.swift */; };
+		1003EBFB278D7C0500172C84 /* RandomSpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1003EBFA278D7C0500172C84 /* RandomSpringViewController.swift */; };
 		1003EBFE278D7C0500172C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1003EBFC278D7C0500172C84 /* Main.storyboard */; };
 		1003EC00278D7C0500172C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1003EBFF278D7C0500172C84 /* Assets.xcassets */; };
 		1003EC03278D7C0500172C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1003EC01278D7C0500172C84 /* LaunchScreen.storyboard */; };
+		D794988F222E63B14B8D9066 /* Pods_SpringRandomAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36548FE40A990B7787E7F0BF /* Pods_SpringRandomAnimate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1003EBF3278D7C0500172C84 /* SpringRandomAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringRandomAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1003EBF6278D7C0500172C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1003EBF8278D7C0500172C84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1003EBFA278D7C0500172C84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1003EBFA278D7C0500172C84 /* RandomSpringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSpringViewController.swift; sourceTree = "<group>"; };
 		1003EBFD278D7C0500172C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1003EBFF278D7C0500172C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1003EC02278D7C0500172C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1003EC04278D7C0500172C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3328862811AAC1EF3AE9064B /* Pods-SpringRandomAnimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringRandomAnimate.release.xcconfig"; path = "Target Support Files/Pods-SpringRandomAnimate/Pods-SpringRandomAnimate.release.xcconfig"; sourceTree = "<group>"; };
+		36548FE40A990B7787E7F0BF /* Pods_SpringRandomAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringRandomAnimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F350C5D88AC42EEE6CCE1C1 /* Pods-SpringRandomAnimate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringRandomAnimate.debug.xcconfig"; path = "Target Support Files/Pods-SpringRandomAnimate/Pods-SpringRandomAnimate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D794988F222E63B14B8D9066 /* Pods_SpringRandomAnimate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				1003EBF5278D7C0500172C84 /* SpringRandomAnimate */,
 				1003EBF4278D7C0500172C84 /* Products */,
+				44D5F04348EB5673A95FEC8D /* Pods */,
+				43964E831466FE70EE55FCB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +65,30 @@
 			children = (
 				1003EBF6278D7C0500172C84 /* AppDelegate.swift */,
 				1003EBF8278D7C0500172C84 /* SceneDelegate.swift */,
-				1003EBFA278D7C0500172C84 /* ViewController.swift */,
+				1003EBFA278D7C0500172C84 /* RandomSpringViewController.swift */,
 				1003EBFC278D7C0500172C84 /* Main.storyboard */,
 				1003EBFF278D7C0500172C84 /* Assets.xcassets */,
 				1003EC01278D7C0500172C84 /* LaunchScreen.storyboard */,
 				1003EC04278D7C0500172C84 /* Info.plist */,
 			);
 			path = SpringRandomAnimate;
+			sourceTree = "<group>";
+		};
+		43964E831466FE70EE55FCB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36548FE40A990B7787E7F0BF /* Pods_SpringRandomAnimate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44D5F04348EB5673A95FEC8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F350C5D88AC42EEE6CCE1C1 /* Pods-SpringRandomAnimate.debug.xcconfig */,
+				3328862811AAC1EF3AE9064B /* Pods-SpringRandomAnimate.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1003EC07278D7C0500172C84 /* Build configuration list for PBXNativeTarget "SpringRandomAnimate" */;
 			buildPhases = (
+				53B5043DC445E9F3BF52B19D /* [CP] Check Pods Manifest.lock */,
 				1003EBEF278D7C0500172C84 /* Sources */,
 				1003EBF0278D7C0500172C84 /* Frameworks */,
 				1003EBF1278D7C0500172C84 /* Resources */,
+				B7108B2F7510C5E4D266DD17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +159,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53B5043DC445E9F3BF52B19D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpringRandomAnimate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7108B2F7510C5E4D266DD17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringRandomAnimate/Pods-SpringRandomAnimate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringRandomAnimate/Pods-SpringRandomAnimate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpringRandomAnimate/Pods-SpringRandomAnimate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1003EBEF278D7C0500172C84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1003EBFB278D7C0500172C84 /* ViewController.swift in Sources */,
+				1003EBFB278D7C0500172C84 /* RandomSpringViewController.swift in Sources */,
 				1003EBF7278D7C0500172C84 /* AppDelegate.swift in Sources */,
 				1003EBF9278D7C0500172C84 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +352,7 @@
 		};
 		1003EC08278D7C0500172C84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F350C5D88AC42EEE6CCE1C1 /* Pods-SpringRandomAnimate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +364,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +382,7 @@
 		};
 		1003EC09278D7C0500172C84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3328862811AAC1EF3AE9064B /* Pods-SpringRandomAnimate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +394,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
