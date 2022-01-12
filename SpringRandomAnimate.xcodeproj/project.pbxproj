@@ -13,6 +13,7 @@
 		1003EBFE278D7C0500172C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1003EBFC278D7C0500172C84 /* Main.storyboard */; };
 		1003EC00278D7C0500172C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1003EBFF278D7C0500172C84 /* Assets.xcassets */; };
 		1003EC03278D7C0500172C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1003EC01278D7C0500172C84 /* LaunchScreen.storyboard */; };
+		10578779278F4FBE00810D69 /* RandomAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10578778278F4FBE00810D69 /* RandomAnimate.swift */; };
 		D794988F222E63B14B8D9066 /* Pods_SpringRandomAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36548FE40A990B7787E7F0BF /* Pods_SpringRandomAnimate.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		1003EBFF278D7C0500172C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1003EC02278D7C0500172C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1003EC04278D7C0500172C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10578778278F4FBE00810D69 /* RandomAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAnimate.swift; sourceTree = "<group>"; };
 		3328862811AAC1EF3AE9064B /* Pods-SpringRandomAnimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringRandomAnimate.release.xcconfig"; path = "Target Support Files/Pods-SpringRandomAnimate/Pods-SpringRandomAnimate.release.xcconfig"; sourceTree = "<group>"; };
 		36548FE40A990B7787E7F0BF /* Pods_SpringRandomAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringRandomAnimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F350C5D88AC42EEE6CCE1C1 /* Pods-SpringRandomAnimate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringRandomAnimate.debug.xcconfig"; path = "Target Support Files/Pods-SpringRandomAnimate/Pods-SpringRandomAnimate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,15 +65,48 @@
 		1003EBF5278D7C0500172C84 /* SpringRandomAnimate */ = {
 			isa = PBXGroup;
 			children = (
-				1003EBF6278D7C0500172C84 /* AppDelegate.swift */,
-				1003EBF8278D7C0500172C84 /* SceneDelegate.swift */,
-				1003EBFA278D7C0500172C84 /* RandomSpringViewController.swift */,
-				1003EBFC278D7C0500172C84 /* Main.storyboard */,
-				1003EBFF278D7C0500172C84 /* Assets.xcassets */,
-				1003EC01278D7C0500172C84 /* LaunchScreen.storyboard */,
-				1003EC04278D7C0500172C84 /* Info.plist */,
+				10578777278F4EEE00810D69 /* SupportFiles */,
+				10578775278F4E7300810D69 /* Models */,
+				10578774278F4E6A00810D69 /* Views */,
+				10578773278F4E5B00810D69 /* Controllers */,
 			);
 			path = SpringRandomAnimate;
+			sourceTree = "<group>";
+		};
+		10578773278F4E5B00810D69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1003EBFA278D7C0500172C84 /* RandomSpringViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		10578774278F4E6A00810D69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1003EBFC278D7C0500172C84 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		10578775278F4E7300810D69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10578778278F4FBE00810D69 /* RandomAnimate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		10578777278F4EEE00810D69 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1003EC01278D7C0500172C84 /* LaunchScreen.storyboard */,
+				1003EC04278D7C0500172C84 /* Info.plist */,
+				1003EBFF278D7C0500172C84 /* Assets.xcassets */,
+				1003EBF6278D7C0500172C84 /* AppDelegate.swift */,
+				1003EBF8278D7C0500172C84 /* SceneDelegate.swift */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 		43964E831466FE70EE55FCB1 /* Frameworks */ = {
@@ -208,6 +243,7 @@
 			files = (
 				1003EBFB278D7C0500172C84 /* RandomSpringViewController.swift in Sources */,
 				1003EBF7278D7C0500172C84 /* AppDelegate.swift in Sources */,
+				10578779278F4FBE00810D69 /* RandomAnimate.swift in Sources */,
 				1003EBF9278D7C0500172C84 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +396,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69R52T495A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpringRandomAnimate/Info.plist;
+				INFOPLIST_FILE = SpringRandomAnimate/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -390,7 +426,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69R52T495A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpringRandomAnimate/Info.plist;
+				INFOPLIST_FILE = SpringRandomAnimate/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
