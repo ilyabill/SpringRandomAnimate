@@ -1,0 +1,6 @@
+framework module Pods_SpringRandomAnimate {
+  umbrella header "Pods-SpringRandomAnimate-umbrella.h"
+
+  export *
+  module * { export * }
+}
